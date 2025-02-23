@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(68, 68, 68);
+}
+.logar{
+    background-color: #585858;
+}
+input{
+    margin-top: 10px;
+    font-size: 130%;
+    display: grid;
+    position: relative;
+    margin-left: 15px;
+}
+form{
+    margin-top: 220px;
+    background-color: #202020;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin-left: 40%;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: lime 3px 3px 4px;
+}
+.submitbtn{
+    color: black;
+    background-color: #33ff00;
+    border-radius: 5px;
+    border: none;
+    margin-top: 90px;
+    margin-left: 80px;
+    padding: 5px;
+    transition: ease 0.5s;
+    box-shadow: white 2px 2px 4px;
+}
+.submitbtn:hover{
+    color: lime;
+    background-color: #3f3f3f;
+    box-shadow: lime 2px 2px 4px;
+    transition: ease 0,5s;
+    font-size: 22px;
+}
+h1{
+    color: rgb(43, 255, 0);
+
+}
+.User{
+     background-color: #202020;
+     border: none;
+     color: lime;
+     text-decoration: underline;
+     transition: ease 0.5s;
+     
+}
+.senha{
+    background-color: #202020;
+    border: none;
+    color: lime;
+    text-decoration: underline;
+    transition: ease 0.5s;
+    
+}
+.User:hover{
+    font-size: 140%;
+    transition: ease 0.5s;
+}
+.senha:hover{
+    font-size: 140%;
+    transition: ease 0.5s;
+}
+.voltar{
+    font-size: 25px;
+    color: black;
+    background-color: lime;
+    border: none;
+    border-radius: 5px;
+    box-shadow: white 2px 2px 4px;
+    transition: ease 0.5s;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 4px;
+}
+.voltar:hover{
+    font-size: 30px;
+    color: lime;
+    background-color: #3f3f3f;
+    transition: ease 0.5s;
+    box-shadow: black 2px 2px 4px;
+}

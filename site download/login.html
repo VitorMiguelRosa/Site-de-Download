@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+<a class="voltar" href="index.html">Voltar</a>
+
+
+<form action="">
+    <h1>Login</h1>
+    <input type="text" class="User" placeholder="Usuario                                                  ." id="User">
+    <input type="password" class="senha" placeholder="Senha                                                  ." id="senha">
+    <input type="submit"  class="submitbtn" onclick="verificar()" >
+
+</form>
+
+<script>
+
+var User = document.getElementById("User").value;
+var Senha = document.getElementById("senha").value
+
+function verificar() {
+if (User == "admin" && Senha == "admin"){
+        window.location.href("index.html");
+        alert('sucesso');
+}else{
+    alert("erro")
+}
+
+}
+
+</script>
+
+</body>
+</html>
